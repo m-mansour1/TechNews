@@ -18,7 +18,7 @@ public class ShowWeb extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             value = extras.getString("url");
-            //The key argument here must match that used in the other activity
+            //The key argument here must match with the other used in MainActivity
         }
         webView.loadUrl(value);
 
